@@ -1,0 +1,58 @@
+body {
+	font-family: 'Rubik', sans-serif;
+}
+/* index */
+/*row1*/
+nav {
+  background-color: #810000;
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.nav-item {
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+}
+
+.welcome {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  padding:1rem;
+  margin-left: auto;
+}
+
+.food {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  color:  #ebb584;
+}
+
+.customerbody {
+	padding:5rem 25rem;
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
+
+table {
+	border:1px solid black;
+}
+
+tr {
+	padding:1rem;
+	font-size:1.3rem;
+}
+
+@media screen and (max-width:1200px) {
+	.customerbody {
+		padding:8rem 5rem;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.customerbody {
+		padding:8rem 2rem;
+	}
+}
